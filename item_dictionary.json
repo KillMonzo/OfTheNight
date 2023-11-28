@@ -1,0 +1,84 @@
+{
+    "items": [
+        {
+            "name": "Cosmic Compass",
+            "description": "An ancient compass that always points towards the center of the galaxy.",
+            "categories": ["Arcane", "Metal"],
+            "item_type": "Artifact",
+            "effect": {"type": "modifier", "value": "+2 navigation"},
+            "rarity": "uncommon"
+        },
+        {
+            "name": "Photon Potion",
+            "description": "A glowing potion that increases one's speed for a short period.",
+            "categories": ["Arcane", "Glass"],
+            "item_type": "Potion",
+            "effect": {"type": "modifier", "value": "+3 agility"},
+            "rarity": "common"
+        },
+        {
+            "name": "Solar Harmonica",
+            "description": "A musical instrument that can calm even the fiercest of space storms.",
+            "categories": ["Metal"],
+            "item_type": "Instrument",
+            "effect": {"type": "resolve", "value": "Space Storm Phenomenon"},
+            "rarity": "rare"
+        },
+        {
+            "name": "Nebula Necklace",
+            "description": "A beautiful necklace that provides protection against cosmic entities.",
+            "categories": ["Arcane", "Metal"],
+            "item_type": "Equipment",
+            "effect": {"type": "modifier", "value": "+2 defense against cosmic"},
+            "rarity": "uncommon"
+        },
+        {
+            "name": "Quantum Quill",
+            "description": "A magical quill that records events even before they happen.",
+            "categories": ["Arcane", "Nature"],
+            "item_type": "Tool",
+            "effect": {"type": "skill_roll_bonus", "value": 2},
+            "rarity": "rare"
+        },
+        {
+            "name": "Galactic Gem",
+            "description": "A gemstone infused with the power of a thousand stars.",
+            "categories": ["Arcane", "Nature"],
+            "item_type": "Gemstone",
+            "effect": {"type": "action_points", "value": 2},
+            "rarity": "ultra-rare"
+        },
+        {
+            "name": "Moonlight Mantle",
+            "description": "A shimmering cloak that conceals one's presence.",
+            "categories": ["Arcane", "Cloth"],
+            "item_type": "Equipment",
+            "effect": {"type": "modifier", "value": "+3 stealth"},
+            "rarity": "uncommon"
+        },
+        {
+            "name": "Stellar Scroll",
+            "description": "A mysterious scroll containing the secrets of the cosmos.",
+            "categories": ["Arcane", "Paper"],
+            "item_type": "Book",
+            "effect": {"type": "knowledge", "value": "cosmic_secrets"},
+            "rarity": "rare"
+        },
+        {
+            "name": "Void Vase",
+            "description": "A container that holds an infinite amount of space within.",
+            "categories": ["Arcane", "Glass"],
+            "item_type": "Container",
+            "effect": {"type": "storage", "value": "infinite"},
+            "rarity": "ultra-rare"
+        },
+        {
+            "name": "Astroid Axe",
+            "description": "A powerful axe forged from the remnants of a destroyed asteroid.",
+            "categories": ["Metal"],
+            "item_type": "Tool",
+            "effect": {"type": "modifier", "value": "+4 strength"},
+            "rarity": "common"
+        }
+    ]
+}

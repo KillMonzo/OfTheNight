@@ -1,0 +1,26 @@
+{
+    "0": {
+        "description": "A mysterious aura surrounds this entity, making everything nearby feel eerily cold.",
+        "effect": "Reduce player agility by 2 points every turn.",
+        "difficulty": "Common",
+        "skill_check": 4,
+        "associated_skill": "Survival",
+        "secondary_requirement": "Tool"
+    },
+    "1": {
+        "description": "The entity emits an overwhelming force, challenging the player strength.",
+        "effect": "Reduce player strength by 1 point every turn.",
+        "difficulty": "Uncommon",
+        "skill_check": 5,
+        "associated_skill": "Diplomacy",
+        "secondary_requirement": "Electronic"
+    },
+    "2": {
+        "description": "A puzzling enigma is presented by the entity, requiring a sharp mind to decipher.",
+        "effect": "Reduce player intelligence by 2 points every turn.",
+        "difficulty": "Rare",
+        "skill_check": 4,
+        "associated_skill": "Research",
+        "secondary_requirement": "Wood"
+    }
+}

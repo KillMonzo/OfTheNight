@@ -1,0 +1,323 @@
+{
+    "first_names": ["Aria", "Jaxon", "Lyra", "Orion", "Nova", "Kai", "Selene", "Cosmo", "Stella", "Draco", "Luna", "Phoenix", "Helia", "Galax", "Nash", "Starla", "Triton", "Nebula", "Sirius", "Caelum", "Astria", "Mars", "Vela", "Solara", "Neptune", "John", "David", "Joseph", "Kyle", "Neel", "Steeven", "Sam", "Dean", "Pat", "Ruby", "Scott", "Dallas", "Avery", "Jordan", "Sawyer", "Quinn", "Peter", "Saul", "Carrie", "Chris", "Michael", "Seth", "Saul", "Jessie", "Kim", "Lindsay", "Stevie", "Mick"],
+    "last_names": ["Smythe", "Bombay", "James", "Bangor", "King", "Gayman", "Venture", "Ryker", "Taylor", "Bouchard", "Bellamy", "Decker", "Hymer", "LaVey", "Starborn", "Nebulon", "Galaxia", "Orbitar", "Stellari", "Quasar", "Voidrunner", "Cosmica", "Skygazer", "Moonshadow", "Sunflare", "Astrofyre", "Starshade", "Nightsky", "Solstice", "Ecliptor", "Galacticar", "Starfire", "Voidstar", "Celestia", "Supernova", "Skyborn", "Starstream", "Galaxar", "Skyshield"],
+    "base_affectation_data": {
+        "Gravity": {"reasoning": "Influences movement and physical challenges."},
+        "Radiation": {"reasoning": "Can affect health or technology."},
+        "Atmosphere": {"reasoning": "Influences breathing or propulsion systems."},
+        "Star Energy": {"reasoning": "Affects magic or certain technologies."}
+    },
+    "professions": {
+        "Engineer": {
+            "profession_name": "Engineer",
+            "affectations": {
+                "Gravity": [2, "Often working in controlled gravity environments."],
+                "Radiation": [-1, "Workspaces are protected from harmful radiation."],
+                "Atmosphere": [1, "Frequent work in controlled atmosphere conditions."],
+                "Star Energy": [1, "Utilizes star energy for equipment calibration."]
+            },
+            "skills": {
+                "Piloting": [1, "Minor training for piloting shuttle crafts."],
+                "Engineering": [3, "Expertise in ship and machine engineering."],
+                "Diplomacy": [1, "Occasional interactions with other departments."],
+                "Combat": [2, "Security training for potential breaches or threats."],
+                "Research": [2, "Regular exposure to advanced technology and systems."],
+                "Survival": [2, "Trained for emergencies, from technical mishaps to breaches."]
+            }
+        },
+        "Navigator": {
+            "profession_name": "Navigator",
+            "affectations": {
+                "Gravity": [1, "Sedentary job results in less exposure to varied gravity."],
+                "Radiation": [0, "Navigational systems shielded from radiation."],
+                "Atmosphere": [1, "Standard atmospheric conditions in the navigator chamber."],
+                "Star Energy": [2, "Dependent on star energy for plotting courses."]
+            },
+            "skills": {
+                "Piloting": [3, "Expertise in piloting and charting courses."],
+                "Engineering": [1, "Understanding of navigational systems."],
+                "Diplomacy": [2, "Occasionally liaising with other ships or stations."],
+                "Combat": [1, "Basic security training."],
+                "Research": [2, "Always updating knowledge of star maps and routes."],
+                "Survival": [2, "Training in navigation during emergencies."]
+            }
+        },
+	
+    "Communications Expert": {
+        "profession_name": "Communications Expert",
+        "affectations": {
+            "Gravity": [0, "Typical controlled environment in communications chamber."],
+            "Radiation": [-1, "Communication equipment shielded from radiation."],
+            "Atmosphere": [1, "Standard atmospheric conditions in the chamber."],
+            "Star Energy": [2, "High usage of star energy for long-range communications."]
+        },
+        "skills": {
+            "Piloting": [1, "Minor piloting training for communication shuttles."],
+            "Engineering": [2, "Understanding of the communication apparatus."],
+            "Diplomacy": [3, "Regular interactions with various entities."],
+            "Combat": [1, "Basic security and self-defense training."],
+            "Research": [2, "Knowledge of languages, codes, and communication channels."],
+            "Survival": [1, "Prepared for disruptions in communication."]
+        }
+    },
+    "Astrobiologist": {
+        "profession_name": "Astrobiologist",
+        "affectations": {
+            "Gravity": [2, "Exposed to various planetary gravities."],
+            "Radiation": [0, "Standard radiation protection in field gear."],
+            "Atmosphere": [2, "Potential exposure to various atmospheric conditions."],
+            "Star Energy": [1, "Regular usage for research equipment."]
+        },
+        "skills": {
+            "Piloting": [2, "Trained for piloting research vessels."],
+            "Engineering": [2, "Understanding of biological research equipment."],
+            "Diplomacy": [2, "Interactions with potentially new life forms."],
+            "Combat": [1, "Basic training for potential field dangers."],
+            "Research": [3, "Primary function involves continuous research."],
+            "Survival": [2, "Training for potential extended periods in unknown conditions."]
+        }
+    },
+    "Medical Officer": {
+        "profession_name": "Medical Officer",
+        "affectations": {
+            "Gravity": [1, "Standard gravity in medical bay."],
+            "Radiation": [-1, "Medical equipment shielded from radiation."],
+            "Atmosphere": [1, "Standard atmospheric conditions in the medical bay."],
+            "Star Energy": [0, "Limited star energy use, primarily for medical equipment."]
+        },
+        "skills": {
+            "Piloting": [0, "No piloting skills required."],
+            "Engineering": [1, "Basic understanding of medical equipment."],
+            "Diplomacy": [2, "Interactions with crew for medical reasons."],
+            "Combat": [1, "Basic self-defense training."],
+            "Research": [2, "Knowledge of medical research and practices."],
+            "Survival": [1, "Training for medical emergencies."]
+        }
+    },
+    "Artificial Intelligence Specialist": {
+        "profession_name": "Artificial Intelligence Specialist",
+        "affectations": {
+            "Gravity": [0, "Typical controlled environment."],
+            "Radiation": [-1, "AI cores shielded from radiation."],
+            "Atmosphere": [1, "Standard atmospheric conditions."],
+            "Star Energy": [2, "High usage for AI maintenance and operation."]
+        },
+        "skills": {
+            "Piloting": [0, "No piloting required."],
+            "Engineering": [3, "Deep understanding of AI cores and operations."],
+            "Diplomacy": [1, "Interactions mainly with AI entities."],
+            "Combat": [0, "No combat training."],
+            "Research": [3, "Continuous learning and research on AI technologies."],
+            "Survival": [1, "Preparedness for potential AI malfunctions."]
+        }
+    },
+    "Mechanic": {
+        "profession_name": "Mechanic",
+        "affectations": {
+            "Gravity": [2, "Various gravities when repairing external ship components."],
+            "Radiation": [0, "Standard protection during external repairs."],
+            "Atmosphere": [2, "Potential exposure during external repairs."],
+            "Star Energy": [2, "Regular usage for mechanical tools and equipment."]
+        },
+        "skills": {
+            "Piloting": [1, "Minor piloting for maintenance shuttles."],
+            "Engineering": [3, "Deep understanding of ship components and mechanics."],
+            "Diplomacy": [1, "Regular interactions with crew regarding maintenance."],
+            "Combat": [1, "Basic self-defense training."],
+            "Research": [2, "Understanding of evolving mechanical solutions."],
+            "Survival": [2, "Training for potential hazards during repairs."]
+        }
+    },
+    "Security Officer": {
+        "profession_name": "Security Officer",
+        "affectations": {
+            "Gravity": [1, "Typical ship gravity during patrols."],
+            "Radiation": [0, "Standard protection gear."],
+            "Atmosphere": [1, "Standard ship atmosphere."],
+            "Star Energy": [1, "Usage for security equipment."]
+        },
+        "skills": {
+            "Piloting": [1, "Minor piloting for security shuttles."],
+            "Engineering": [1, "Understanding of security systems."],
+            "Diplomacy": [3, "Regular interactions with crew and potential threats."],
+            "Combat": [3, "Advanced combat training."],
+            "Research": [1, "Knowledge of security threats and protocols."],
+            "Survival": [3, "Training for a variety of potential security threats."]
+        }
+    },
+    "Ship's Cook": {
+        "profession_name": "Ship's Cook",
+        "affectations": {
+            "Gravity": [0, "Typical ship gravity in the kitchen."],
+            "Radiation": [-1, "Kitchen equipment shielded from radiation."],
+            "Atmosphere": [1, "Standard ship atmosphere in the kitchen."],
+            "Star Energy": [0, "Limited star energy use, primarily for cooking equipment."]
+        },
+        "skills": {
+            "Piloting": [0, "No piloting skills required."],
+            "Engineering": [1, "Basic understanding of kitchen equipment."],
+            "Diplomacy": [2, "Interactions with crew regarding meals."],
+            "Combat": [0, "No combat training."],
+            "Research": [2, "Knowledge of recipes and nutritional needs."],
+            "Survival": [1, "Preparedness for potential kitchen emergencies."]
+        }
+    },
+    "Quantum Physicist": {
+        "profession_name": "Quantum Physicist",
+        "affectations": {
+            "Gravity": [1, "Standard ship gravity in the lab."],
+            "Radiation": [0, "Lab equipment shielded from radiation."],
+            "Atmosphere": [1, "Standard ship atmosphere in the lab."],
+            "Star Energy": [2, "Regular usage for quantum experiments."]
+        },
+        "skills": {
+            "Piloting": [0, "No piloting skills required."],
+            "Engineering": [2, "Understanding of quantum apparatus and devices."],
+            "Diplomacy": [1, "Minor interactions mainly with research teams."],
+            "Combat": [0, "No combat training."],
+            "Research": [3, "Primary function involves continuous quantum research."],
+            "Survival": [1, "Training for potential lab emergencies."]
+        }
+    },
+    "Starship Engineer": {
+        "profession_name": "Starship Engineer",
+        "affectations": {
+            "Gravity": [2, "Various gravities during ship inspections and repairs."],
+            "Radiation": [0, "Standard protection during external engineering tasks."],
+            "Atmosphere": [2, "Potential exposure during external engineering tasks."],
+            "Star Energy": [3, "High usage for ship systems and tools."]
+        },
+        "skills": {
+            "Piloting": [1, "Minor piloting for engineering shuttles."],
+            "Engineering": [3, "Deep understanding of ship systems and operations."],
+            "Diplomacy": [2, "Interactions with crew regarding ship status and safety."],
+            "Combat": [1, "Basic self-defense training."],
+            "Research": [3, "Continuous research on ship technologies and solutions."],
+            "Survival": [2, "Training for potential hazards during engineering tasks."]
+        }
+    },
+    "Research Scientist": {
+        "profession_name": "Research Scientist",
+        "affectations": {
+            "Gravity": [1, "Standard ship gravity in the lab."],
+            "Radiation": [0, "Lab equipment shielded from radiation."],
+            "Atmosphere": [1, "Standard ship atmosphere in the lab."],
+            "Star Energy": [2, "Regular usage for various experiments."]
+        },
+        "skills": {
+            "Piloting": [0, "No piloting skills required."],
+            "Engineering": [1, "Basic understanding of research equipment."],
+            "Diplomacy": [2, "Interactions with research teams and external entities."],
+            "Combat": [1, "Basic self-defense training."],
+            "Research": [3, "Primary function involves continuous research in various fields."],
+            "Survival": [1, "Training for potential lab emergencies."]
+        }
+    },
+    "Cargo Specialist": {
+        "profession_name": "Cargo Specialist",
+        "affectations": {
+            "Gravity": [2, "Various gravities in cargo bay and during loading/unloading tasks."],
+            "Radiation": [0, "Standard protection during external cargo tasks."],
+            "Atmosphere": [2, "Potential exposure during external cargo tasks."],
+            "Star Energy": [1, "Usage for cargo equipment and tools."]
+        },
+        "skills": {
+            "Piloting": [2, "Trained for piloting cargo shuttles."],
+            "Engineering": [2, "Understanding of cargo systems and machinery."],
+            "Diplomacy": [2, "Interactions with suppliers and receivers."],
+            "Combat": [1, "Basic self-defense training."],
+            "Research": [1, "Knowledge of cargo items and their specifications."],
+            "Survival": [2, "Training for potential hazards during cargo tasks."]
+        }
+    },
+    "Starship Historian": {
+        "profession_name": "Starship Historian",
+        "affectations": {
+            "Gravity": [1, "Standard ship gravity during research."],
+            "Radiation": [0, "Research equipment shielded from radiation."],
+            "Atmosphere": [1, "Standard ship atmosphere during research."],
+            "Star Energy": [0, "Limited star energy use, primarily for research equipment."]
+        },
+        "skills": {
+            "Piloting": [0, "No piloting skills required."],
+            "Engineering": [1, "Basic understanding of historical artifacts."],
+            "Diplomacy": [3, "Interactions with various cultures and entities."],
+            "Combat": [1, "Basic self-defense training."],
+            "Research": [3, "Primary function involves researching starship history."],
+            "Survival": [1, "Preparedness for historical expeditions."]
+        }
+    },
+    "Xenodiplomat": {
+        "profession_name": "Xenodiplomat",
+        "affectations": {
+            "Gravity": [1, "Typical ship gravity during meetings."],
+            "Radiation": [0, "Standard protection during external diplomacy tasks."],
+            "Atmosphere": [2, "Potential exposure during diplomatic meetings."],
+            "Star Energy": [1, "Usage for communication and travel."]
+        },
+        "skills": {
+            "Piloting": [1, "Minor piloting for diplomatic shuttles."],
+            "Engineering": [1, "Understanding of communication systems."],
+            "Diplomacy": [3, "Regular interactions with various alien cultures."],
+            "Combat": [2, "Training for potential threats during diplomatic tasks."],
+            "Research": [3, "Research on cultures and diplomacy techniques."],
+            "Survival": [2, "Training for potential hazards during diplomatic tasks."]
+        }
+
+    }
+},
+    "descriptions": [
+        "A tall figure with piercing eyes that have seen too much.",
+        "Sturdy and rugged from years in the harsh environment of deep space.",
+        "A delicate presence but with an unmistakable air of authority.",
+        "Wears an ever-present mysterious smile and moves with a purpose.",
+        "Has a cybernetic arm that tells a story of a distant battle.",
+        "Radiates a warmth that can be felt even through the chill of the void.",
+        "Carries old scars, each marking a story of survival and resilience.",
+        "Eyes always darting around, taking in every detail, missing nothing.",
+        "Prefers dark, loose clothing which hides more gadgets than one can imagine.",
+        "Always seen with an ancient artifact, a relic of a forgotten era.",
+        "Has an aura of someone who’s danced with stars and spoken to galaxies.",
+        "Wears their hair in intricate braids, a tribute to their homeland.",
+        "Their voice carries the weight of wisdom and countless cosmic tales.",
+        "Moves with a grace that is almost otherworldly in its fluidity.",
+        "Has a luminescent tattoo that changes color based on their mood.",
+        "Their laughter is infectious, a melody that brings joy in the darkest of times.",
+        "Carries themselves with a regal elegance, reminiscent of interstellar royalty.",
+        "Prefers silence but when they speak, everyone stops to listen.",
+        "Often lost in thought, contemplating the mysteries of the universe.",
+        "A deep thinker, always seen with a digital notepad scribbling down theories.",
+        "Their skin shimmers in starlight, a side effect of a rare cosmic event.",
+        "Though youthful in appearance, their eyes reflect ancient wisdom.",
+        "Has an uncanny knack for appearing just when they're needed the most.",
+        "Prefers the company of machines over people, always tinkering with some gadget.",
+        "Often daydreaming, with a distant look that speaks of faraway adventures."
+    ],
+    "goals": [
+        "Seek out and understand the ancient prophecies of the universe.",
+        "Find the lost starship said to hold unimaginable power.",
+        "Establish a peaceful alliance with a warring alien race.",
+        "Discover a new energy source to save their dying home planet.",
+        "Decipher the cosmic signals believed to be messages from a long-gone civilization.",
+        "Find their long-lost sibling who disappeared in a wormhole.",
+        "Uncover the truth about the mysterious black holes that are appearing everywhere.",
+        "Become the most revered pilot in all the known galaxies.",
+        "Collect rare artifacts from every corner of the universe.",
+        "Document and study every known species in the cosmos.",
+        "Reunite with their childhood friend who's now a rogue space pirate.",
+        "Locate the mythical planet said to grant eternal life to its visitors.",
+        "Defend the universe from an impending cosmic threat.",
+        "Harness the power of a dying star to revolutionize space travel.",
+        "Bring about peace in a region torn apart by intergalactic warfare.",
+        "Unravel the mysteries behind the strange cosmic anomalies.",
+        "Become the richest merchant in the galaxy, trading in rare goods.",
+        "Find a new home for their people, whose planet is on the brink of destruction.",
+        "Reclaim their rightful throne after being betrayed and exiled.",
+        "Capture the most beautiful sights of the cosmos and share them with the universe.",
+        "Write the most comprehensive guide on the cultures of different alien races.",
+        "Become a legendary hero by saving a spaceship in distress.",
+        "Win the most prestigious space race, held once every millennium.",
+        "Discover a secret portal that leads to another dimension.",
+        "Find the truth about their origin and their connection to the stars."
+    ]
+}
